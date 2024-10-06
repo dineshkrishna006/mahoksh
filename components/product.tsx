@@ -17,7 +17,7 @@ const Product = () => {
   return (
     <div className="min-h-screen font-out flex flex-col items-center justify-center bg-mbackg">
       <div className="lg:hidden  flex flex-col md:flex-row mt-4 gap-10 border-2 p-2   rounded-2xl border-mgreen">
-        <div className="w-[300px]">
+        <div className="w-[325px]">
           <Image
             src={"/images/coconutoil2lit.jpeg"}
             width={250}
@@ -27,7 +27,7 @@ const Product = () => {
           />
         </div>
 
-        <div className="w-[300px] ">
+        <div className="w-[325px] ">
           <p className="w-full  text-black text-xl font-semibold">
             {/* {product.name} */}
             Coconut Oil( pack of two)
