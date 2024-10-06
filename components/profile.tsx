@@ -34,6 +34,12 @@ export function Profile() {
       status: "Pending",
     },
   ];
+  const profiledate = {
+    name: "Dinesh Krishna P",
+    email: "dineshkrishna0456@gmail.com",
+    phone: "+916303372132",
+  };
+
   return (
     <div className="w-full bg-mbackg font-out flex flex-col gap-10 ">
       <div>
@@ -45,21 +51,21 @@ export function Profile() {
                 <p>Name</p>
                 <p>:</p>
               </div>
-              <p>John Doe</p>
+              <p>{profiledate.name}</p>
             </div>
             <div className="w-[300px] flex justify-start gap-2  items-center">
               <div className="w-[80px] flex justify-between font-[520]">
                 <p>Email</p>
                 <p>:</p>
               </div>
-              <p className="pl-1">johdoe@gmail.com</p>
+              <p className="pl-1">{profiledate.email}</p>
             </div>
             <div className="w-[300px] flex justify-start gap-2  items-center">
               <div className="w-[80px] flex justify-between font-[520]">
                 <p>Phone</p>
                 <p>:</p>
               </div>
-              <p>+91 6969696969</p>
+              <p>{profiledate.phone}</p>
             </div>
           </div>
 
