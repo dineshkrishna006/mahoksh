@@ -27,19 +27,19 @@ const testimonials = [
   },
   {
     name: "Traditional Methods",
-    src: "/images/nochemicals.png",
+    src: "/images/traditional.png",
   },
   {
-    name: "Bull Powered",
-    src: "/images/nochemicals.png",
+    name: "Hand Pressed",
+    src: "/images/handpressed.png",
   },
   {
     name: "Authentic Flavour",
-    src: "/images/nochemicals.png",
+    src: "/images/authenticflavour.png",
   },
   {
     name: "Natural",
-    src: "/images/nochemicals.png",
+    src: "/images/natural.png",
   },
   {
     name: "Pure Oils",
@@ -51,19 +51,19 @@ const testimonials = [
   },
   {
     name: "Traditional Methods",
-    src: "/images/nochemicals.png",
+    src: "/images/traditional.png",
   },
   {
-    name: "Bull Powered",
-    src: "/images/nochemicals.png",
+    name: "Hand Pressed",
+    src: "/images/handpressed.png",
   },
   {
     name: "Authentic Flavour",
-    src: "/images/nochemicals.png",
+    src: "/images/authenticflavour.png",
   },
   {
     name: "Natural",
-    src: "/images/nochemicals.png",
+    src: "/images/natural.png",
   },
   {
     name: "Pure Oils",
@@ -75,18 +75,18 @@ const testimonials = [
   },
   {
     name: "Traditional Methods",
-    src: "/images/nochemicals.png",
+    src: "/images/traditional.png",
   },
   {
-    name: "Bull Powered",
-    src: "/images/nochemicals.png",
+    name: "Hand Pressed",
+    src: "/images/handpressed.png",
   },
   {
     name: "Authentic Flavour",
-    src: "/images/nochemicals.png",
+    src: "/images/authenticflavour.png",
   },
   {
     name: "Natural",
-    src: "/images/nochemicals.png",
+    src: "/images/natural.png",
   },
 ];
