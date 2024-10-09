@@ -4,15 +4,6 @@ import Image from "next/image";
 import { TbShoppingCartPlus } from "react-icons/tb";
 import { Button } from "./ui/button";
 
-// interface Productdetials {
-//   source: string;
-//   name: string;
-//   price: number;
-//   mrp: number;
-//   bundle: number;
-//   liter: number;
-//   stock: number;
-// }
 const Product = () => {
   return (
     <div className="min-h-screen font-out flex flex-col items-center justify-center bg-mbackg">

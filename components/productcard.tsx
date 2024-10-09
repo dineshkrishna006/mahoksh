@@ -67,7 +67,7 @@ const Productcard = () => {
       {products_.map((product: Product, index: number) => (
         <div
           key={index}
-          className="w-[250px] bg-mgreen p-1  font-out text-lg border-[2px] border-black shadow-xl rounded-2xl overflow-hidden"
+          className="w-[250px] bg-mgreen p-1 font-out text-lg shadow-xl rounded-2xl overflow-hidden"
         >
           <div className="relative">
             <Image
@@ -75,9 +75,9 @@ const Productcard = () => {
               width={250}
               height={1}
               alt="coconutoil1lit"
-              className="aspect-square  w-full rounded-2xl"
+              className="aspect-square  w-full rounded-xl"
             />
-            <p className="absolute bottom-0 left-1 my-1   flex justify-center items-center  rounded-xl text-mgreen bg-white/80 w-[80px]">
+            <p className="absolute bottom-0 left-1 my-1 text-sm flex justify-center items-center rounded-xl text-mgreen bg-white/80 px-2 py-0.5 font-medium">
               {product.liter.toFixed(1)}Liter
             </p>
             {/* <p className="absolute bottom-0 right-1 p-1 my-1  flex justify-center items-center  rounded-xl text-mgreen bg-gray-600/60 w-[100px]">
@@ -85,7 +85,7 @@ const Productcard = () => {
         </p> */}
           </div>
 
-          <div className="mt-3 ml-3 mb-2 ">
+          <div className="mt-3 ml-3 ">
             <p className="w-full overflow-hidden text-mbackg text-ellipsis whitespace-nowrap">
               {product.name}
             </p>
@@ -97,7 +97,10 @@ const Productcard = () => {
                 </span>
               </p>
               {product.stock > 0 ? (
-                <Button className="rounded-xl  px-3 font-[500]" variant="cart">
+                <Button
+                  className="rounded-xl font-[500] px-2 py-1 h-auto text-sm"
+                  variant="cart"
+                >
                   <TbShoppingCartPlus size={15} />
                   &nbsp;Add
                 </Button>

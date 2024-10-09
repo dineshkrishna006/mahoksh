@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
-import {Outfit} from "next/font/google"
+import { Outfit } from "next/font/google";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -16,9 +16,9 @@ const geistMono = localFont({
 
 const out = Outfit({
   subsets: ["latin"],
-  weight: ["400","700","800","900"],
+  weight: ["400", "500", "600", "700", "800", "900"],
   variable: "--font-out",
-})
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
